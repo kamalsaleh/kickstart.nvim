@@ -118,7 +118,16 @@ vim.schedule(function()
   vim.o.clipboard = 'unnamedplus'
 end)
 
--- Enable break indent
+-- Number of spaces a tab counts for
+vim.o.tabstop = 2
+
+-- Use spaces instead of tabs
+vim.o.expandtab = true
+
+-- Number of spaces for auto-indent
+vim.o.shiftwidth = 2
+
+-- The wrapped part of a line is indented the same as the beginning of the line
 vim.o.breakindent = true
 
 -- Save undo history
