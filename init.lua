@@ -181,6 +181,9 @@ vim.opt.eol = true
 -- This tells Neovim to automatically add a newline character at the end of the file when saving, if the newline is missing.
 vim.opt.fixeol = true
 
+-- Global Variables
+vim.g.have_nerd_font = true
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
