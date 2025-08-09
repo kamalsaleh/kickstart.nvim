@@ -175,6 +175,12 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- This tells Neovim to treat the file as if it ends with a newline character
+vim.opt.eol = true
+
+-- This tells Neovim to automatically add a newline character at the end of the file when saving, if the newline is missing.
+vim.opt.fixeol = true
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
